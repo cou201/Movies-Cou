@@ -1,4 +1,4 @@
-import styles from "./App.module.css";
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,7 +14,11 @@ export function App() {
     <Router>
       <header>
         <Link to="/">
-          <h1 className={styles.title}>Movies</h1>
+        <h1 className="titulo">
+                    <span>Portafolio</span>
+                    <span>De</span>
+                    <span>Peliculas.</span>
+                </h1>
         </Link>
       </header>
       <main>
